@@ -3,7 +3,7 @@ requires = ["setuptools","setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "progressbar"
+name = "jsgprogressbar"
 version = "1.0.0"
 authors = [
   { name="Juan Santos Gomez", email="juansantosgomez@protonmail.com" },
