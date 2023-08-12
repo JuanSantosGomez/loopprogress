@@ -17,7 +17,7 @@ def progressbar(it, prefix="", size=60, out=stdout): # Python3.3+
     count = len(it)
     def show(j):
         x = int(size*j/count)
-        print("{}{}{}{}|{}{}{}{}|{} {}/{}".format(bcolors.BOLD,prefix,bcolors.ENDC,bcolors.WARNING, "█"*x,bcolors.ENDC, bcolors.GRAY+"█"*(size-x)+bcolors.ENDC,bcolors.WARNING,bcolors.ENDC, j, count), 
+        print("{}{}{} {}{}{}{}{} {} {}/{}".format(bcolors.BOLD,prefix,bcolors.ENDC,bcolors.WARNING, "━"*x,bcolors.ENDC, bcolors.GRAY+"━"*(size-x)+bcolors.ENDC,bcolors.WARNING,bcolors.ENDC, j, count), 
                 end='\r', file=out, flush=True)
         
         
