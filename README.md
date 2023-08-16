@@ -1,5 +1,7 @@
 # JSGprogressbar: Dynamic Progress Bar Module for Python
 
+![Showcase](showcase.png)
+
 JSGprogressbar is a lightweight Python module that provides an elegant solution for incorporating dynamic progress bars into your loops. Say goodbye to the days of tedious guesswork during lengthy operations – with JSGprogressbar, you can effortlessly keep track of your loop's advancement in real-time, all while maintaining focus on your core logic.
 
 ## Features
