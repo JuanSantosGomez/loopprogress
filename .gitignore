@@ -2,3 +2,4 @@ dist
 *.egg-info
 *test.py
 __pycache__
+buildscript.sh
