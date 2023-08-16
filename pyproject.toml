@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jsgprogressbar"
-version = "1.0.3"
+version = "1.0.4"
 authors = [
   { name="Juan Santos Gomez", email="juansantosgomez@protonmail.com" },
 ]
